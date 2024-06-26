@@ -15,7 +15,7 @@ OJO: reemplazar /path/to/local/nats.conf por la ruta al archivo nats.conf que ac
 
 ## Example
 ```shell
-docker run -it --rm -p 4222:4222 -v /home/prezdev/git-projects/test-token-nats/nats.conf:/etc/nats.conf nats -js -DVV -c /etc/nats.conf
+docker run -it --rm -p 4222:4222 -v /home/prezdev/awto/microservices/test/test-token-nats/nats.conf:/etc/nats.conf nats -js -DVV -c /etc/nats.conf
 ```
 
 # Test
